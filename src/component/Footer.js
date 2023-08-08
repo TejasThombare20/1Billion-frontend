@@ -11,11 +11,11 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="w-full h-[350px] py-10 relative overflow-hidden flex  ">
-      <img
+      {/* <img
         src={footerBG}
         alt=""
-        className="w-full h-full object-cover absolute top-0 left-0  "
-      />
+        className="w-full h-full object-cover absolute top-0 left-0  hidden md:inline "
+      /> */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-16 z-10 font-semibold">
         <div className=" flex flex-col items-start justify-start gap-5 ">
           <div className=" h-12 w-30 ">
